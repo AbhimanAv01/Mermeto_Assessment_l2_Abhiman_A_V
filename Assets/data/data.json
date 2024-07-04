@@ -1,0 +1,54 @@
+{
+    "product": {
+        "id": 6937548554342,
+        "title": "Embrace Sideboard",
+        "description": "The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.",
+        "vendor": "Marmeto",
+        "product_type": "Cloth",
+        "price": "$12999",
+        "compare_at_price": "$19999.00",
+        "options": [
+            {
+                "name": "Color",
+                "position": 1,
+                "values": [
+                    {
+                        "Yellow": "#ECDECC"
+                    },
+                    {
+                        "Green": "#BBD278"
+                    },
+                    {
+                        "Blue": "#BBC1F8"
+                    },
+                    {
+                        "Pink": "#FFD3F8"
+                    }
+                ]
+            },
+            {
+                "name": "Size",
+                "position": 2,
+                "values": [
+                    "Small",
+                    "Medium",
+                    "Large",
+                    "Extra large",
+                    "XXL"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "src": "https://images.unsplash.com/photo-1598626431046-c7978e636c14?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            {
+                "src": "https://images.unsplash.com/photo-1598626430540-588302ca5972?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            
+            {
+                "src": "https://modernsuitsamui.com/wp-content/uploads/2022/07/Blouse-Image.jpg"
+            }
+        ]
+    }
+}

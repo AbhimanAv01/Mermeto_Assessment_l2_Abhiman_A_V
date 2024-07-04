@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Product Page</title>
+</head>
+
+<body>
+    <div class="product-container">
+        <!-- Image Section -->
+        <div class="image-section">
+            <img id="main-image" src="" alt="Main Product Image">
+            <div class="thumbnails">
+                <img src="" onclick="changeImage(this.src)" tabindex="0" id="thumbnails1">
+                <img src="https://via.placeholder.com/100" onclick="changeImage(this.src)" tabindex="0"
+                    id="thumbnails2">
+                <img src="https://via.placeholder.com/100" onclick="changeImage(this.src)" tabindex="0"
+                    id="thumbnails3">
+                <img src="https://via.placeholder.com/100" onclick="changeImage(this.src)" tabindex="0"
+                    id="thumbnails4">
+            </div>
+        </div>
+        <!-- Product Details Section -->
+        <div class="details-section">
+            <span id="vendor"></span>
+            <h2 id="product-title"></h2>
+            <hr id="hr1">
+            <div class="price">
+                <span class="current-price" id="current-price"></span>
+                <span class="discount">35% Off</span><br>
+                <span class="original-price" id="original-price"></span>
+            </div>
+            <hr id="hr1">
+            <!-- Options Section -->
+            <div class="options">
+                <div class="color-options">
+                    <p class="Choose">Choose a Color</p>
+                    <div class="colors">
+                        <button class="color-button" id="color1" onclick="selectColor('Yellow')"></button>
+                        <button class="color-button" id="color2" onclick="selectColor('Green')"></button>
+                        <button class="color-button" id="color3" onclick="selectColor('blue')"></button>
+                        <button class="color-button" id="color4" onclick="selectColor('pink')"></button>
+                    </div>
+                    <hr id="hr1">
+                </div>
+                <div class="size-options">
+                    <p class="Choose">Choose a Size</p>
+                    <div class="sizes">
+                        <label class="radiobtn">
+                            <input type="radio" name="size" value="Small"><span id="radio1"></span>
+                        </label>
+                        <label class="radiobtn">
+                            <input type="radio" name="size" value="Medium"><span id="radio2"></span>
+                        </label>
+                        <label class="radiobtn">
+                            <input type="radio" name="size" value="Large"><span id="radio3"></span>
+                        </label class="radiobtn">
+                        <label class="radiobtn">
+                            <input type="radio" name="size" value="Extra Large"><span id="radio4"></span>
+                        </label>
+                        <label class="radiobtn">
+                            <input type="radio" name="size" value="XXL"><span id="radio5"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- Quantity and Add to Cart Button -->
+            <div class="quantity">
+                <button id="decrement">-</button>
+                <input id="quantity-input" type="text" value="1">
+                <button id="increment">+</button>
+
+                <button class="add-to-cart"><i class="fa fa-shopping-bag"></i> Add To Cart</button>
+            </div>
+            <!-- Alert and Description Section -->
+            <p id="alert"></p>
+            <p class="description" id="description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
